@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <menu>
+        <div class="logo">
+            <img src="logo.png" width="100" alt="logo">
+        </div>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#order">Order</a></li>
+    </menu>
+    <section id="home">
+        <div class="heroimg">
+            <h1 id="middle">
+                Welcome to Our Kafal Restaurant</h1>
+        </div>
+    </section>
+    <section id="menu">
+        <h1 id="heading2">Menu of the Day</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="noodles.avif" alt="Noodles">
+                <h2>Noodles</h2>
+                <p>&#8377;200</p>
+            </div>
+            <div class="card">
+                <img src="tea.png" alt="tea" height="200" style="margin-top: 55px;">
+                <h2>Special Tea</h2>
+                <p>&#8377;10</p>
+            </div>
+            <div class="card">
+                <img src="burger.png" alt="Burger">
+                <h2>Burger</h2>
+                <p>&#8377;250</p>
+            </div>
+            <div class="card">
+                <img src="choleBatura.jpg" alt="Chole Batura">
+                <h2>Chole Batura</h2>
+                <p>&#8377;270</p>
+            </div>
+            <div class="card">
+                <img src="momos.jpg" height="200" alt="Momos">
+                <h2>Momos</h2>
+                <p>&#8377;90</p>
+            </div>
+            <div class="card">
+                <img src="bal mithai.jpg" alt="Indian Thali">
+                <h2>Bal mithai sweet</h2>
+                <p>&#8377;300</p>
+            </div>
+            <div class="card">
+                <img src="pahadithali.jpg" alt="Pahadi Thali">
+                <h2>Pahadi Thali</h2>
+                <p>&#8377;220</p>
+            </div>
+            <div class="card">
+                <img src="kafal.jpg" alt="Pahadi Thali">
+                <h2>Fresh Kafal</h2>
+                <p>&#8377;200</p>
+            </div>
+        </div>
+    </section>
+    <section id="About">
+        <h1 style="text-align: center; font-size: 2rem; margin: 20px;">Terms and Conditions:</h1>
+        <p style="padding: 20px; text-align: justify;">
+            <b>Welcome to Kafal Restaurant</b>–where culinary excellence meets the warm embrace of traditional
+            Uttarakhand hospitality. Nestled in the scenic heart of Uttarakhand, Kafal Restaurant is much more than just
+            a dining destination; it’s a tribute to the flavors, culture, and heritage of this beautiful region. Named
+            after the <b>kafal</b>, a beloved berry native to the Himalayas, our restaurant embodies the spirit of
+            freshness, resilience, and a deep-rooted connection to nature. Just as the <b>kafal</b>is a symbol of
+            vitality and warmth, our mission is to offer every guest a dining experience filled with authenticity,
+            innovation, and a touch of the unexpected.
+            At Kafal Restaurant, our culinary philosophy is driven by respect for the land and a passion for celebrating
+            local ingredients. We believe in the power of seasonal produce and proudly source our ingredients from
+            Uttarakhand’s trusted farmers, dedicated growers, and skilled artisans. Every dish on our menu, from
+            timeless regional classics to contemporary chef specials, is crafted to bring out the unique qualities of
+            our ingredients. From robust mountain spices to the tender greens grown in rich soil, each component tells a
+            story of Uttarakhand’s agricultural legacy. Our chefs meticulously design each plate to be as visually
+            stunning as it is flavorful, reflecting a blend of traditional techniques and modern culinary artistry.
+
+            Our menu extends beyond food—it’s a journey through the essence of Uttarakhand, with each bite revealing
+            layers of heritage, innovation, and craftsmanship. For those seeking new tastes, our chefs are delighted to
+            introduce you to distinctive regional flavors, prepared in ways that honor both tradition and creativity.
+            And for those who cherish familiar flavors, our dishes bring an added touch of finesse, offering an elevated
+            experience that remains rooted in the authenticity of Uttarakhand’s culinary landscape.
+
+            The experience at Kafal Restaurant, however, extends far beyond the plate. Designed with elegance and a
+            touch of rustic charm, our interiors mirror the tranquility and natural beauty of Uttarakhand. Soft
+            lighting, earthy textures, and an open, welcoming layout create a serene ambiance perfect for any occasion.
+            Large windows reveal stunning views of the surrounding landscapes, and each element of our decor has been
+            thoughtfully chosen to create a comforting retreat from the bustling world outside.
+
+            Our commitment to hospitality is as important to us as our dedication to cuisine. Our attentive and
+            passionate staff is here to guide you through a delightful dining experience, whether it’s recommending the
+            perfect wine pairing, sharing the origins of our ingredients, or simply ensuring that your meal exceeds
+            expectations. At Kafal Restaurant, each guest is treated like family, with personal touches and thoughtful
+            service designed to make your visit truly unforgettable.
+
+            Whether you’re here for an intimate evening with someone special, a joyous family gathering, or a
+            celebration of life’s precious moments, we are honored to be part of your experience. We invite you to
+            relax, enjoy the flavors of Uttarakhand, and embrace the unique blend of tradition and innovation that
+            defines Kafal Restaurant.
+
+            Thank you for choosing <b>Kafal Restaurant</b> — a place where local heritage, culinary artistry, and
+            heartfelt hospitality come together. We look forward to welcoming you and sharing our love for Uttarakhand’s
+            rich culinary landscape with you, one unforgettable meal at a time.
+        </p>
+    </section>
+    <section id="order">
+        <div class="contact-box">
+            <h2>Feedback Form</h2>
+            <fieldset>
+                <form action="#">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input type="text" name="name" required >
+                    </div><br>
+                    <div>
+                        <label for="Phone">Phone Number:</label>
+                        <input type="tel" name="Phone" required >
+                    </div><br>
+                    <div>
+                        <label for="Address">Feedback:</label><br>
+                        <textarea name="Address" id="Address" cols="60" rows="10" required></textarea>
+                    </div><br>
+                    <input class="btn" type="submit" value="submit Now">
+                </form>
+        </div><br>
+    </section>
+    </fieldset>
+</body>
+
+</html>
